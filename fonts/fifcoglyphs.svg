@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata></metadata>
+<defs>
+<font id="fifcoglyphsnormal" horiz-adv-x="1452" >
+<font-face units-per-em="2048" ascent="1432" descent="-616" />
+<missing-glyph horiz-adv-x="1024" />
+<glyph horiz-adv-x="0" />
+<glyph unicode="&#xd;" horiz-adv-x="680" />
+<glyph unicode=" "  horiz-adv-x="1024" />
+<glyph unicode="&#x09;" horiz-adv-x="1024" />
+<glyph unicode="&#xa0;" horiz-adv-x="1024" />
+<glyph unicode="A" horiz-adv-x="80" />
+<glyph unicode="a" d="M8 544h544v-544h352v544h544v348h-544v544h-352v-544h-544v-348z" />
+<glyph unicode="b" d="M8 544h1440v348h-1440v-348z" />
+<glyph unicode="c" d="M16 192l184 -184l524 524l524 -524l184 184l-524 524l524 524l-184 184l-524 -524l-524 524l-184 -184l524 -524z" />
+<glyph unicode="d" horiz-adv-x="1536" d="M8 672l572 -572l948 948l-248 248l-700 -700l-324 324z" />
+<glyph unicode="e" d="M8 716q0 -296 212 -506t508 -210t506 210t210 506t-210 508t-506 212t-508 -212t-212 -508zM8 716q0 -296 212 -506t508 -210t506 210t210 506t-210 508t-506 212t-508 -212t-212 -508zM292 592v212h324v324h212v-324h324v-212h-324v-324h-212v324h-324zM292 592v212h324 v324h212v-324h324v-212h-324v-324h-212v324h-324z" />
+<glyph unicode="f" d="M8 716q0 -296 212 -506t508 -210t506 210t210 506t-210 508t-506 212t-508 -212t-212 -508zM8 716q0 -296 212 -506t508 -210t506 210t210 506t-210 508t-506 212t-508 -212t-212 -508zM292 592v212h860v-212h-860zM292 592v212h860v-212h-860z" />
+<glyph unicode="g" d="M12 716q0 -296 210 -506t506 -210t506 210t210 506t-210 508t-506 212t-506 -212t-210 -508zM12 716q0 -296 210 -506t506 -210t506 210t210 506t-210 508t-506 212t-506 -212t-210 -508zM652 320v156h156v-156h-156zM652 320v156h156v-156h-156zM652 1136h156l-40 -604 h-80zM652 1136h156l-40 -604h-80z" />
+<glyph unicode="h" d="M8 716q0 -292 212 -504t504 -212t504 212t212 504t-212 504t-504 212t-504 -212t-212 -504zM8 716q0 -292 212 -504t504 -212t504 212t212 504t-212 504t-504 212t-504 -212t-212 -504zM652 640v492h128v-376h360v-116h-488zM652 640v492h128v-376h360v-116h-488z" />
+<glyph unicode="i" horiz-adv-x="1348" d="M0 108q0 -44 30 -76t74 -32h1140q44 0 74 32t30 76v1104q0 44 -30 76t-74 32h-84v-188h-304v188h-364v-188h-304v188h-84q-44 0 -74 -32t-30 -76v-1104zM260 1224h160v212h-160v-212zM432 560v200h488v-200h-488zM928 1224h164v212h-164v-212z" />
+<glyph unicode="j" horiz-adv-x="1164" d="M8 100q0 -40 28 -70t68 -30h960q40 0 68 30t28 70v892l-440 440h-616q-40 0 -68 -28t-28 -68v-1236zM668 928v308l308 -308h-308z" />
+<glyph unicode="k" horiz-adv-x="1492" d="M0 92q0 -40 24 -66t60 -26h828q40 0 68 36l-372 156q-4 0 -32 20h-492v1048h832v-520l36 -44q20 8 44 16v640q0 36 -24 60t-60 24h-828q-36 0 -60 -24t-24 -60v-1260zM604 340q-9 -18 -9 -34q0 -35 45 -54l592 -252q3 -1 7 -1q30 0 123 81q106 92 118 128h4v8v4q1 2 1 6 q0 33 -67 202q-74 188 -118 204q-52 20 -112 20q-12 0 -58 2t-72 2t-62 -12t-60 -36q-11 -11 -24 -11q-23 0 -50 37q-42 58 -70 130l-24 72q-20 26 -45 26q-21 0 -47 -18q-29 -18 -29 -44q0 -20 17 -44l216 -340l4 -80l-196 40q-15 5 -28 5q-35 0 -56 -41z" />
+<glyph unicode="l" horiz-adv-x="1268" d="M12 356l620 -356l620 356v716l-620 360l-620 -360v-716zM32 368v680l588 -340v-680zM44 1068l224 128l588 -340l-224 -128zM476 1316l156 92l592 -340l-164 -92zM644 28v680l216 124v-224l208 120v228l164 92v-680z" />
+<glyph unicode="&#x2000;" horiz-adv-x="718" />
+<glyph unicode="&#x2001;" horiz-adv-x="1436" />
+<glyph unicode="&#x2002;" horiz-adv-x="718" />
+<glyph unicode="&#x2003;" horiz-adv-x="1436" />
+<glyph unicode="&#x2004;" horiz-adv-x="478" />
+<glyph unicode="&#x2005;" horiz-adv-x="359" />
+<glyph unicode="&#x2006;" horiz-adv-x="239" />
+<glyph unicode="&#x2007;" horiz-adv-x="239" />
+<glyph unicode="&#x2008;" horiz-adv-x="179" />
+<glyph unicode="&#x2009;" horiz-adv-x="287" />
+<glyph unicode="&#x200a;" horiz-adv-x="79" />
+<glyph unicode="&#x202f;" horiz-adv-x="287" />
+<glyph unicode="&#x205f;" horiz-adv-x="359" />
+<glyph unicode="&#x25fc;" horiz-adv-x="2000" d="M0 0z" />
+</font>
+</defs></svg> 

@@ -1,0 +1,220 @@
+body
+{
+	background: url("../images/newlogin.jpg") center bottom no-repeat black;
+	background-size: cover;
+	font-family: "Century Gothic", sans-serif;
+	font-size: 16px;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+footer
+{
+	background-color: #2B333C !important;
+	bottom: 0;
+	color: #FFFFFF;
+	font-size: 14px;
+	left: 0;
+	padding: 2em 0em;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+footer a
+{
+	color: #FFFFFF !important;
+	text-decoration: none !important;
+}
+
+footer p
+{
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	background: #414042;
+	color: #FFFFFF;
+	line-height: 1em;
+	padding: 1em 5em;
+	text-align: right;
+}
+
+html
+{
+	height: 100%;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=url],
+input[type=date],
+input[type=tel],
+input[type=number],
+input[type=search],
+textarea.materialize-textarea
+{
+	border-bottom-color: white !important;
+}
+
+.input-field input[type=text]:focus,
+.input-field input[type=password]:focus,
+.input-field input[type=email]:focus,
+.input-field input[type=url]:focus,
+.input-field input[type=date]:focus,
+.input-field input[type=tel]:focus,
+.input-field input[type=number]:focus,
+.input-field input[type=search]:focus
+{
+	border-bottom-color: white !important;
+}
+
+.input-field input[type=text].valid,
+.input-field input[type=password].valid,
+.input-field input[type=email].valid,
+.input-field input[type=url].valid,
+.input-field input[type=date].valid,
+.input-field input[type=tel].valid,
+.input-field input[type=number].valid,
+.input-field input[type=search].valid
+{
+	border-bottom-color: white !important;
+}
+
+.input-field input[type=text].invalid,
+.input-field input[type=password].invalid,
+.input-field input[type=email].invalid,
+.input-field input[type=url].invalid,
+.input-field input[type=date].invalid,
+.input-field input[type=tel].invalid,
+.input-field input[type=number].invalid,
+.input-field input[type=search].invalid
+{
+	border-bottom-color: white !important;
+}
+
+.input-field .prefix.active
+{
+	color: white !important;
+}
+
+.btn
+{
+	background-color: transparent !important;
+	border: 2px solid white !important;
+}
+
+.corner
+{
+	position: absolute;
+	right: 2em;
+	top: 2em;
+}
+
+.login
+{
+	box-sizing: border-box;
+	margin-top: -260px;
+	padding: 7em;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+
+.login form
+{
+	background: rgba(222,216,82,0.8);
+	color: #FFFFFF;
+	padding: 2em 2em 1em !important;
+	text-align: center;
+}
+
+.login label
+{
+	display: inline-block;
+	margin-right: 1em;
+	text-align: right;
+	width: 150px;
+}
+
+.login p
+{
+	padding: 0.5em;
+}
+
+.login .submit
+{
+	background-color:rgba(43,51,60,0.4);
+	background-image:-webkit-linear-gradient(top,rgba(43,51,60,0.4) 0%,#2b333c 100%);
+	background-image:-moz-linear-gradient(top,rgba(43,51,60,0.4) 0%,#2b333c 100%);
+	background-image:-ms-linear-gradient(top,rgba(43,51,60,0.4) 0%,#2b333c 100%);
+	background-image:-o-linear-gradient(top,rgba(43,51,60,0.4) 0%,#2b333c 100%);
+	background-image:linear-gradient(top,rgba(43,51,60,0.4) 0%,#2b333c 100%);
+	border: 0;
+	border-radius: 0.5em;
+	color: #FFF;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 0.5em 2em;
+	text-decoration: none !important;
+	-moz-border-radius: 0.5em;
+	-ms-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+}
+.login .green
+{
+	background: #299a0b;
+	border: 0;
+	border-radius: 0.5em;
+	color: #FFF;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 0.5em 2em;
+	text-decoration: none !important;
+	-moz-border-radius: 0.5em;
+	-ms-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+}
+.login .red
+{
+	background: #9A0B0B;
+	border: 0;
+	border-radius: 0.5em;
+	color: #FFF;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 0.5em 2em;
+	text-decoration: none !important;
+	-moz-border-radius: 0.5em;
+	-ms-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+}
+
+.login .text
+{
+	border: 2px solid rgba(255,255,255,0.5);
+	font-size: 16px;
+	padding: 0.25em 1em;
+	width: 250px;
+}
+
+.logo
+{
+	display: block;
+	left: 7em;
+	position: absolute;
+	top: 60px;
+}
+
+.title
+{
+	background: rgba(0,0,0,0.35);
+	color: #FFFFFF;
+	font-size: 1.75em;
+	padding: 0.75em !important;
+	text-align: center;
+}

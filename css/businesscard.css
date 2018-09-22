@@ -1,0 +1,335 @@
+/*-----------------------------------------------------------------------------------
+        card
+        Built with Blocs
+-----------------------------------------------------------------------------------*/
+
+body{
+	margin:0;
+	padding:0;
+    background:#FFF;
+    overflow-x:hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+		font-size:10px;
+		    /*border: 1px solid #333;*/
+}
+
+a:hover{text-decoration: none; cursor:pointer;}
+
+a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
+
+/* Globals type styling */
+
+ h1, h2, h3, h4, h5, h6, p, label, .btn, a{
+	font-family:"Helvetica";
+}
+
+h1{
+	font-size:36px;
+}
+
+/* Site container width */
+
+.container{
+	width:100%;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+/* = Blocs
+-------------------------------------------------------------- */
+
+.bloc{
+	width:100%;
+	clear:both;
+	background: 50% 50% no-repeat;
+	padding:0 50px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position:relative;
+}
+.bloc .container{
+	padding-left:0;
+	padding-right:0;
+}
+
+
+/* Sizes */
+
+.bloc-lg{
+	padding:100px 50px;
+}
+
+ 
+/* Bloc text custom styling */
+
+#bloc-0 h1{
+	font-size: 3em;
+}
+#bloc-0 h2{
+	font-size: 2.2em;
+}
+#bloc-0 h5{
+	font-size: 1.5em;
+}
+
+.mg-md{
+	/*margin-top:10px;
+	margin-bottom:20px;*/
+	margin-top: 0px;
+	margin-bottom: 2px;
+}
+
+/* = Buttons
+-------------------------------------------------------------- */
+
+.btn{
+	margin: 0 5px 5px 0;
+}
+.btn.pull-right{
+	margin: 0 0 5px 5px;
+}
+.btn-d,.btn-d:hover,.btn-d:focus{
+	color:#FFF!important;
+	background:rgba(0,0,0,.3);
+}
+
+/* Prevent ugly blue glow on chrome and safari */
+button{
+	outline: none!important;
+}
+
+.dropdown a .caret{
+	margin:0 0 0 5px}
+
+
+
+
+.panel-sq, .panel-sq .panel-heading, .panel-sq .panel-footer{
+	border-radius:0;
+}
+.panel-rd{
+	border-radius:30px;
+}
+.panel-rd .panel-heading{
+	border-radius:29px 29px 0 0;
+}
+.panel-rd .panel-footer{
+	border-radius:0 0 29px 29px;
+}
+
+
+
+/* iFrame */
+
+iframe{
+	border:0;
+}
+
+/* = Custom Colour Styling
+-------------------------------------------------------------- */
+
+/* Background colour styles */
+
+.bgc-white{
+	background-color:#ffffff;
+}
+
+
+ 
+#card-out{
+	border:2px solid #333;
+	padding:3em;
+	border-top-right-radius:5em;
+	max-width: 700px;
+	height: 300px;
+	-webkit-box-shadow: 0px 0px 104px -15px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 104px -15px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 104px -15px rgba(0,0,0,0.75);
+}
+#linea{
+	width:700px;
+	bottom: -10px;
+	overflow: hidden;
+	position: relative;
+  /*max-width: 100%;*/
+  max-height: 20px;
+    /*margin-left: -13px;*/
+    margin-top: -50px;
+}
+#linea > div > div{
+	height: 20px;
+}
+/*** LINEA 1 **/
+#linea-parte-1 {
+	display:inline-block;
+	width: 180px;
+	margin-right: -15px;
+}
+#linea-parte-1 > div {
+	padding:0;
+	margin:0;
+	display:inline-block;
+	background-color: #7c91bb;
+
+}
+#linea-parte-1 >  div.inicio {
+
+	padding:0;
+	width: 10px;
+}
+
+#linea-parte-1 div.medio {
+	padding:0;
+ 	width: 150px;
+}
+#linea-parte-1 > div.fin {
+	-webkit-clip-path: polygon(0 0, 0px 0, 100% 100%, 0 100%);
+	clip-path: polygon(0 0, 0px 0, 100% 100%, 0 100%);
+	padding:0;
+ 	width: 10px;
+}
+
+
+/*** LINEA 2 **/
+#linea-parte-2 {
+	display:inline-block;
+	width: 220px;
+	margin-right: -5px;
+
+}
+#linea-parte-2 > div {
+	padding:0;
+	margin:0;
+	display:inline-block;
+	background-color: #045291;
+}
+#linea-parte-2 >  div.inicio {
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 10px 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 10px 100%);
+
+	padding:0;
+	width: 10px;
+}
+
+#linea-parte-2 div.medio {
+	padding:0;
+
+	width: 200px;
+}
+#linea-parte-2 > div.fin {
+	-webkit-clip-path: polygon(0 0, 0px 0, 100% 100%, 0 100%);
+	clip-path: polygon(0 0, 0px 0, 100% 100%, 0 100%);
+	padding:0;
+	width: 10px;
+}
+
+/*** LINEA 3 **/
+#linea-parte-3 {
+	display:inline-block;
+	width: 100px;
+	margin-right: -5px;
+
+}
+#linea-parte-3 > div {
+	padding:0;
+	margin:0;
+	display:inline-block;
+	background-color: #f9cb3a;
+
+}
+#linea-parte-3 >  div.inicio {
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 10px 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 10px 100%);
+	padding:0;
+	width: 10px;
+}
+
+#linea-parte-3 div.medio {
+	padding:0;
+	width: 80px;
+}
+#linea-parte-3 > div.fin {
+	-webkit-clip-path: polygon(0 0, 0px 0, 100% 100%, 0 100%);
+	clip-path: polygon(0 0, 0px 0, 100% 100%, 0 100%);
+	padding:0;
+	width: 10px;
+}
+/*** LINEA 4 **/
+#linea-parte-4 {
+	display:inline-block;
+	width: 100px;
+	margin-right: -5px;
+
+}
+#linea-parte-4 > div {
+	padding:0;
+	margin:0;
+	display:inline-block;
+	background-color: #045291;
+
+}
+#linea-parte-4 >  div.inicio {
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 10px 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 10px 100%);
+	padding:0;
+	width: 10px;
+}
+
+#linea-parte-4 div.medio {
+	padding:0;
+	width: 80px;
+}
+#linea-parte-4 > div.fin {
+	-webkit-clip-path: polygon(0 0, 0px 0, 100% 100%, 0 100%);
+	clip-path: polygon(0 0, 0px 0, 100% 100%, 0 100%);
+	padding:0;
+	width: 10px;
+}
+
+/*** LINEA 5 **/
+#linea-parte-5 {
+	display:inline-block;
+	width: 100px;
+	margin-right: -5px;
+
+}
+#linea-parte-5 > div {
+	padding:0;
+	margin:0;
+	display:inline-block;
+	background-color: #3ca1cb;
+
+}
+#linea-parte-5 >  div.inicio {
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 10px 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 10px 100%);
+	padding:0;
+	width: 10px;
+}
+
+#linea-parte-5 div.medio {
+	padding:0;
+	width: 80px;
+}
+#linea-parte-5 > div.fin {
+	-webkit-clip-path: polygon(0 0, 0px 0, 100% 100%, 0 100%);
+	clip-path: polygon(0 0, 0px 0, 100% 100%, 0 100%);
+	padding:0;
+	width: 10px;
+}
+
+#item-nombre{
+	color:#095291;
+}
+#item-puesto{
+	color:#636463;
+}
+#item-departamento{
+	color:#3ca1cb;
+}
+#logo{
+	  margin-top: 50px;
+}
